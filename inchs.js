@@ -7,5 +7,18 @@ function inchToFeet(inch){
     return feet
 }
 
-const ph =inchToFeet(80);
-console.log(ph);
+// const ph =inchToFeet(80);
+// // console.log(ph);
+
+function inToFt (inches){
+
+    const ft = inches / 12;
+    const feetNum = parseInt(ft);
+    const findInches = inches % 12 ;
+    const result = feetNum + " ft " + findInches + " inches"; 
+    return result;  
+}
+const ru = inToFt(62);
+// console.log(ru);
+
+
